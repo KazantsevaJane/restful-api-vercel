@@ -1,19 +1,305 @@
 {
-    "posts": [
+  "users": [
+    {
+      "email": "aaa@aaa",
+      "password": "$2a$10$huWO7za76KRx0EWsMVMFS.Xsv2qXoAX6SyxoVzp1UGKqzmX9jnrOK",
+      "id": 1
+    },
+    {
+      "email": "testqeqe@qqqq",
+      "password": "$2a$10$w3KDj79BZwFu4t2CTt15T.21QmzyzzXKbpTWprDTtZxUf0bsMwG4m",
+      "id": 2
+    },
+    {
+      "email": "12345@12345",
+      "password": "$2a$10$VslnGa2iISAkA61uJPvLtu4V8zxcTkMbns.kc3xmhO6QLSthWoAEa",
+      "id": 3
+    },
+    {
+      "email": "dima@rumba",
+      "password": "$2a$10$UhSx.CpvRrg0QfVFu7ONJ.QRKfsUIMO6I6NO9GdxZNnmm9ZSNCemK",
+      "id": 4,
+      "photo": "patient-img.svg",
+      "firstName": "Дмитрий",
+      "lastName": "Козаченко",
+      "patronymic": "Сергеевич",
+      "birthDate": "2002-12-21",
+      "role": "PATIENT",
+      "therapyList": [
         {
-            "id": 1,
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+          "therapyName": "Установка брекетов",
+          "completedAppointments": [
+            {
+              "numberAppointment": "1",
+              "nameStageTherapy": "Диагностика",
+              "dateAppointment": "2023-02-27",
+              "services": [
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                }
+              ],
+              "recommendations": "Чистить зубы следует не менее 2-х раз в день, в обязательном порядке - утром после завтрака и вечером перед сном. В целях гигиены желательно использовать щетку из искусственной щетины. Для предотвращения развития бактерий после использования щетку необходимо намылить, а перед использованием - тщательно сполоснуть."
+            }
+          ],
+          "plannedAppointments": [
+            {
+              "numberAppointment": "1",
+              "nameStageTherapy": "Лечение кариеса",
+              "dateAppointment": "2023-04-27",
+              "services": [
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                  {
+                      "serviceName": "Лечение кариеса",
+                      "price": 5200,
+                      "count": 1,
+                      "cost": 5200,
+                      "doctorProfile": "Врач-терапевт"
+                  },
+                  {
+                      "serviceName": "Лечение кариеса",
+                      "price": 5200,
+                      "count": 1,
+                      "cost": 5200,
+                      "doctorProfile": "Врач-терапевт"
+                  },
+                  {
+                      "serviceName": "Лечение кариеса",
+                      "price": 5200,
+                      "count": 1,
+                      "cost": 5200,
+                      "doctorProfile": "Врач-терапевт"
+                  },
+                  {
+                      "serviceName": "Лечение кариеса",
+                      "price": 5200,
+                      "count": 1,
+                      "cost": 5200,
+                      "doctorProfile": "Врач-терапевт"
+                  }
+              ]
+            }
+          ]
         },
         {
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+          "therapyName": "Установка брекетов",
+          "completedAppointments": [
+            {
+              "numberAppointment": "1",
+              "nameStageTherapy": "Диагностика",
+              "dateAppointment": "2023-02-27",
+              "services": [
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                }
+              ],
+              "recommendations": "Чистить зубы следует не менее 2-х раз в день, в обязательном порядке - утром после завтрака и вечером перед сном. В целях гигиены желательно использовать щетку из искусственной щетины. Для предотвращения развития бактерий после использования щетку необходимо намылить, а перед использованием - тщательно сполоснуть."
+            }
+          ],
+            "plannedAppointments": [
+                {
+                    "numberAppointment": "1",
+                    "nameStageTherapy": "Лечение кариеса",
+                    "dateAppointment": "2023-04-27",
+                    "services": [
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "id": 3,
-            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-            "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+          "therapyName": "Установка брекетов",
+          "completedAppointments": [
+            {
+              "numberAppointment": "1",
+              "nameStageTherapy": "Диагностика",
+              "dateAppointment": "2023-02-27",
+              "services": [
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                },
+                {
+                  "serviceName": "Фотопротокол",
+                  "price": 2200,
+                  "count": 2,
+                  "cost": 4400,
+                  "doctorProfile": "Ортодонт"
+                }
+              ],
+              "recommendations": "Чистить зубы следует не менее 2-х раз в день, в обязательном порядке - утром после завтрака и вечером перед сном. В целях гигиены желательно использовать щетку из искусственной щетины. Для предотвращения развития бактерий после использования щетку необходимо намылить, а перед использованием - тщательно сполоснуть."
+            }
+          ],
+            "plannedAppointments": [
+                {
+                    "numberAppointment": "1",
+                    "nameStageTherapy": "Лечение кариеса",
+                    "dateAppointment": "2023-04-27",
+                    "services": [
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        },
+                        {
+                            "serviceName": "Лечение кариеса",
+                            "price": 5200,
+                            "count": 1,
+                            "cost": 5200,
+                            "doctorProfile": "Врач-терапевт"
+                        }
+                    ]
+                }
+            ]
         }
-    ]
+      ],
+      "photoDocuments": [
+        {
+          "date": "2023-02-27",
+          "type": "Рентген",
+          "file": "Какой-то файл со снимком"
+        }
+      ]
+    },
+    {
+        "email": "admin@mail",
+        "password": "$2a$10$.KztHVlAlbLNpyhu01tKkuZWJY7m851RVjXtVJ7DGNH956ex/KMH2",
+        "id": 5,
+        "photo": "patient-img.svg",
+        "firstName": "Админ",
+        "lastName": "Админов",
+        "patronymic": "Админович",
+        "birthDate": "2002-12-21",
+        "role": "ADMIN"
+    }
+  ]
 }
