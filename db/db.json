@@ -17,7 +17,7 @@
     },
     {
       "email": "dima@rumba",
-      "password": "$2a$10$UhSx.CpvRrg0QfVFu7ONJ.QRKfsUIMO6I6NO9GdxZNnmm9ZSNCemK",
+      "password": "Aa12345",
       "id": 4,
       "photo": "patient-img.svg",
       "firstName": "Дмитрий",
@@ -292,7 +292,7 @@
     },
     {
         "email": "admin@mail",
-        "password": "$2a$10$.KztHVlAlbLNpyhu01tKkuZWJY7m851RVjXtVJ7DGNH956ex/KMH2",
+        "password": "Ab12345",
         "id": 5,
         "photo": "patient-img.svg",
         "firstName": "Админ",
