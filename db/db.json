@@ -6,7 +6,7 @@
       "id": 1
     },
     {
-      "email": "testqeqe@qqqq",
+      "email": "2testqeqe@qqqq",
       "password": "$2a$10$w3KDj79BZwFu4t2CTt15T.21QmzyzzXKbpTWprDTtZxUf0bsMwG4m",
       "id": 2
     },
@@ -79,34 +79,34 @@
                   "cost": 5200,
                   "doctorProfile": "Врач-терапевт"
                 },
-                  {
-                      "serviceName": "Лечение кариеса",
-                      "price": 5200,
-                      "count": 1,
-                      "cost": 5200,
-                      "doctorProfile": "Врач-терапевт"
-                  },
-                  {
-                      "serviceName": "Лечение кариеса",
-                      "price": 5200,
-                      "count": 1,
-                      "cost": 5200,
-                      "doctorProfile": "Врач-терапевт"
-                  },
-                  {
-                      "serviceName": "Лечение кариеса",
-                      "price": 5200,
-                      "count": 1,
-                      "cost": 5200,
-                      "doctorProfile": "Врач-терапевт"
-                  },
-                  {
-                      "serviceName": "Лечение кариеса",
-                      "price": 5200,
-                      "count": 1,
-                      "cost": 5200,
-                      "doctorProfile": "Врач-терапевт"
-                  }
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                }
               ]
             }
           ]
@@ -151,50 +151,50 @@
               "recommendations": "Чистить зубы следует не менее 2-х раз в день, в обязательном порядке - утром после завтрака и вечером перед сном. В целях гигиены желательно использовать щетку из искусственной щетины. Для предотвращения развития бактерий после использования щетку необходимо намылить, а перед использованием - тщательно сполоснуть."
             }
           ],
-            "plannedAppointments": [
+          "plannedAppointments": [
+            {
+              "numberAppointment": "1",
+              "nameStageTherapy": "Лечение кариеса",
+              "dateAppointment": "2023-04-27",
+              "services": [
                 {
-                    "numberAppointment": "1",
-                    "nameStageTherapy": "Лечение кариеса",
-                    "dateAppointment": "2023-04-27",
-                    "services": [
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        }
-                    ]
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
                 }
-            ]
+              ]
+            }
+          ]
         },
         {
           "therapyName": "Установка брекетов",
@@ -236,50 +236,50 @@
               "recommendations": "Чистить зубы следует не менее 2-х раз в день, в обязательном порядке - утром после завтрака и вечером перед сном. В целях гигиены желательно использовать щетку из искусственной щетины. Для предотвращения развития бактерий после использования щетку необходимо намылить, а перед использованием - тщательно сполоснуть."
             }
           ],
-            "plannedAppointments": [
+          "plannedAppointments": [
+            {
+              "numberAppointment": "1",
+              "nameStageTherapy": "Лечение кариеса",
+              "dateAppointment": "2023-04-27",
+              "services": [
                 {
-                    "numberAppointment": "1",
-                    "nameStageTherapy": "Лечение кариеса",
-                    "dateAppointment": "2023-04-27",
-                    "services": [
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        },
-                        {
-                            "serviceName": "Лечение кариеса",
-                            "price": 5200,
-                            "count": 1,
-                            "cost": 5200,
-                            "doctorProfile": "Врач-терапевт"
-                        }
-                    ]
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
+                },
+                {
+                  "serviceName": "Лечение кариеса",
+                  "price": 5200,
+                  "count": 1,
+                  "cost": 5200,
+                  "doctorProfile": "Врач-терапевт"
                 }
-            ]
+              ]
+            }
+          ]
         }
       ],
       "photoDocuments": [
@@ -291,15 +291,25 @@
       ]
     },
     {
-        "email": "admin@mail",
-        "password": "Ab12345",
-        "id": 5,
-        "photo": "patient-img.svg",
-        "firstName": "Админ",
-        "lastName": "Админов",
-        "patronymic": "Админович",
-        "birthDate": "2002-12-21",
-        "role": "ADMIN"
+      "email": "admin@mail",
+      "password": "Ab12345",
+      "id": 5,
+      "photo": "patient-img.svg",
+      "firstName": "Админ",
+      "lastName": "Админов",
+      "patronymic": "Админович",
+      "birthDate": "2002-12-21",
+      "role": "ADMIN"
+    },
+    {
+      "firstName": "HGGGH",
+      "lastName": "jjjk",
+      "patronymic": "hhhhh",
+      "DOB": "23-19-3888",
+      "email": "amin@mail",
+      "password": "Aa12345",
+      "role": "ADMIN",
+      "id": 6
     }
   ]
 }

@@ -21,7 +21,6 @@ server.post('/login', (req, res) => {
     const payload: { email: string; password: string } = { email: req.body.email, password: req.body.password };
     const user: { id: number; email: string; password: string } | null =
         (router.db.get('users') as any).find({ email: payload.email, password: payload.password }).value() ?? null;
-
     if (user) {
         const accessToken = jwt.sign(payload, JWT_SECRET_KEY, { expiresIn: JWT_EXPIRES_IN });
         res.status(200).json({ accessToken, user: {id: user.id, email: user.email} });
@@ -34,7 +33,21 @@ server.post('/login', (req, res) => {
 
 server.get('/user/:id', function (req, res) {
     console.log(req.params.id)
-    res.send('user ' + req.params.id)
+    res.send('user' + req.params.id)
+})
+
+server.get('/users', function (req, res) {
+    res.send(router.db.get('users'))
+})
+
+server.put('/users/:id', function (req, res) {
+    const user = (router.db.get('users') as any).find({id: req.params.id})
+    res.send(router.db.updateWith(user, req.body))
+})
+
+server.post('register', function (req, res) {
+    const user = req.body
+    res.send(router.db.write({user}))
 })
 server.use(router);
 
