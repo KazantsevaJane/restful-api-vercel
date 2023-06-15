@@ -310,6 +310,16 @@
       "password": "Aa12345",
       "role": "ADMIN",
       "id": 6
+    },
+    {
+      "firstName": "HGGGH",
+      "lastName": "jjjk",
+      "patronymic": "hhhhh",
+      "DOB": "23-19-3888",
+      "email": "amin@mail",
+      "password": "Aa12345",
+      "role": "ADMIN",
+      "id": 7
     }
   ]
 }

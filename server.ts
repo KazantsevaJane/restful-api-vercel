@@ -45,10 +45,6 @@ server.put('/users/:id', function (req, res) {
     res.send(router.db.updateWith(user, req.body))
 })
 
-server.post('/register', function (req, res) {
-    const user = req.body
-    res.send(router.db.write({user}))
-})
 server.use(router);
 
 server.listen(PORT, () => {
